@@ -1,0 +1,9 @@
+POST http://127.0.0.1:5050/invocations
+Content-Type: application/json
+
+{
+    "dataframe_split":{
+        "columns":["tamanho","ano","garagem"],
+        "data":[[159.0,2003,1]]
+    }
+}
