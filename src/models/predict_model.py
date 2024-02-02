@@ -1,5 +1,5 @@
 import mlflow
-logged_model = 'runs:/2ce0493cde31424ab1ef2f99208f6e28/model'
+logged_model = 'models:/PrecoImoveis/Production'
 
 # Load model as a PyFuncModel.
 loaded_model = mlflow.pyfunc.load_model(logged_model)
